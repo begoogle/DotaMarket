@@ -394,7 +394,6 @@ void StorageRaturner()
 	priceArrCheck = nullptr;
 	totalPriceArrCheck = nullptr;
 }
-
 void PrintCheck(double& totalSum)
 {
 	std::cout << "#\t" << "ID\t" << std::left << std::setw(25) << "Название товара\t\t" << "Цена за ед\t" << "Кол-во\t" << "Итого:\n";
